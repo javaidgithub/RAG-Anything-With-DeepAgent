@@ -1,0 +1,21 @@
+# Core
+streamlit>=1.35.0
+python-dotenv>=1.0.0
+
+# RAGAnything (all optional deps: image, text formats)
+raganything[all]>=1.2.0
+
+# LightRAG (installed as dependency of raganything, listed for explicitness)
+lightrag-hku>=1.3.0
+
+# DeepAgents
+deepagents>=0.1.0
+
+# LLM providers
+openai>=1.30.0
+google-generativeai>=0.8.0
+anthropic>=0.26.0
+
+# Utilities
+aiofiles>=23.2.1
+httpx>=0.27.0

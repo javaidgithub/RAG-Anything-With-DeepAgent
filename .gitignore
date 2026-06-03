@@ -1,0 +1,48 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Vector Databases
+chroma_db/
+vectorstore/
+faiss_index/
+db/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
